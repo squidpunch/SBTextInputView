@@ -12,7 +12,7 @@
 
 @protocol SBTextInputViewDelegate
 @optional
-- (void)buttonPressed:(NSString *)text;
+- (void)SBButtonPressed:(NSString *)text;
 @end
 
 @interface SBTextInputView : UIView

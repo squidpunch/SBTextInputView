@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SBTextInputView"
-  s.version          = "0.1.3"
+  s.version          = "0.1.100"
   s.summary          = "SBTextInputView is a view and inputAccessoryView which auto resizes based on the amount of text."
   s.description      = <<-DESC
                         ## Usage
@@ -49,7 +49,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Elliot Schrock" => "elliot.schrock+pods@gmail.com" }
-  s.source           = { :git => "https://github.com/schrockblock/SBTextInputView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/squidpunch/SBTextInputView.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/schrockblock'
 
   s.platform     = :ios, '7.0'
